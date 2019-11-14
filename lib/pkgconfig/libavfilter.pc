@@ -1,0 +1,14 @@
+prefix=/home/om/works/mp4_encoder/ffmpeg/../
+exec_prefix=${prefix}
+libdir=/home/om/works/mp4_encoder/ffmpeg/..//lib
+includedir=/home/om/works/mp4_encoder/ffmpeg/..//include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 7.57.100
+Requires: libavutil >= 56.31.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavfilter -lm
+Libs.private: 
+Cflags: -I${includedir}

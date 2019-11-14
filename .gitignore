@@ -1,0 +1,6 @@
+/ffmpeg
+/x264
+*.o
+._*
+.DS_Store
+
