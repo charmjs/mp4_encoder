@@ -3,4 +3,5 @@
 *.o
 ._*
 .DS_Store
+.vscode
 
