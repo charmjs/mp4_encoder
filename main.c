@@ -46,6 +46,4 @@ void createVideo() {
     c->height = 720;
     c->time_base = (AVRational){1, 1};
     c->framerate = (AVRational){1, 1};
-
-    printf("Done, prt: $d", &c);
 }
